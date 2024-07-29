@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  background-color: #FBFDFF;
 }
+:root{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  --link-color:#1C7CD6;
+  --body-color: #39496A;
+  --muted-color: #6D727C;
+  --code-primary-color: #657B83;
+  --code-secondary-color: #6078A9;
+
+}
+.App >h1{
+  color: var(--link-color);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +22,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +31,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Courier';
+  src: url('../src/assets/fonts/courbd.ttf') format("truetype");
 }

@@ -1,0 +1,71 @@
+.commit-page {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /* width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start; */
+  }
+  
+  .commit-header {
+
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .commit-header h2 {
+    margin: 0 0 10px;
+  }
+  
+  .commit-header p {
+    margin: 5px 0;
+  }
+  
+  .commit-diff {
+    margin-top: 20px;
+  }
+  
+  .diff-file {
+    margin-bottom: 20px;
+  }
+  
+  .diff-file h3 {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 0;
+  }
+  
+  .diff-hunk {
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  
+  .diff-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .diff-lines {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+
+  .line-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center
+
+  }
+
+  .base-line-number{
+    width: 30px;
+
+  }
+  .head-line-number{
+    width: 30px;
+
+  }
+  

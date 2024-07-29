@@ -1,0 +1,42 @@
+.commit-details {
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    @media only screen and (max-width:544px){
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+  }
+  .commit-details .text-style-header{
+    color: #39496A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+   } 
+   .commit-details .author-comitter{
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted-color);
+    font-size: 12px;
+   } 
+   .commit-details .author-comitter span{
+   color: #39496A;
+   font-weight: 600;
+   } 
+   .commit-details  .extra-commit-details {
+    display: flex;
+    justify-content: space-between;
+    color: #39496A;
+    font-size: 12px;
+   }
+   .commit-details  .extra-commit-details .parent{
+   color: var(--link-color);
+   }
+   
+  .commit-details p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,52 @@
+.line-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+.base-line-number {
+    width: 30px;
+    color: var(--code-secondary-color);
+    font-size: 13px;
+    /* display: inline; */
+    padding: 5px;
+}
+
+.head-line-number {
+    width: 30px;
+    color: var(--code-secondary-color);
+    font-size: 13px;
+    padding: 5px;
+   
+    /* display: inline; */
+}
+.head-line-number.with-bg{
+    background-color: #FBFDFF;
+}
+
+
+.diff-line {
+    white-space: pre-wrap;
+    width: 100%;
+    color: var(--code-primary-color);
+    font: Courier;
+}
+
+.diff-line.added {
+    background-color: #D8FFCB !important;
+}
+
+.diff-line.removed {
+    background-color: #FFE4E9 !important;
+}
+
+.row{
+    display: flex;
+}
+.col-2 {
+    width: 16%;
+}
+.col-10 {
+    width: 83%;
+    overflow: scroll;
+}
